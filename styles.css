@@ -1,0 +1,68 @@
+* {
+    box-sizing : border-box;
+}
+ body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+ }
+ header {
+    background-color : grey;
+    color : aquamarine;
+    padding : 20px;
+    text-align : center;
+ }
+ main {
+    max-width: 900px;
+    margin : 0 auto
+ }
+ .container {
+    background-color :aquamarine;
+    padding : 20px;
+ }
+ .card {
+    background-color :beige;
+    border : 2px solid bisque;
+    padding : 15px;
+    margin : 20px o;
+ }
+ footer {
+    background-color: whitesmoke;
+    color :aqua;
+    text-align : center;
+    padding : 15px;
+ }
+ h1 {
+    margin : 0;
+ }
+ h2 {
+    font-size: 2em;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+  p, li {
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+.nav-link {
+    color: aqua;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.cta-button {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
